@@ -1,7 +1,7 @@
-## ComplexSystemsCW2
+# ComplexSystemsCW2
 Sean, Peter, Luke and Niall's team submission for Complex Systems Coursework 2
 
-# Running the program
+## Running the program
 
 To run the Command Line Interface use the below:
   1. clone repositry to /home/cloudera/cw2
