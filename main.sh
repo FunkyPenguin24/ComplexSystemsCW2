@@ -1,6 +1,7 @@
-hdfs dfs -put GoogleLocal/places.csv /home/cloudera/cw2/
+hdfs dfs -put GoogleLocal/places.csv /home/cloudera/cw2/ #places the GoogleLocal datasets into the HDFS
 hdfs dfs -put GoogleLocal/reviews.csv /home/cloudera/cw2/
 hdfs dfs -put GoogleLocal/users.csv /home/cloudera/cw2/
+spark-shell -i /home/cloudera/cw2/sqlSetup #sets up the database and loads the datasets into it
 spark-shell USE GoogleLocal
 
 req1()
