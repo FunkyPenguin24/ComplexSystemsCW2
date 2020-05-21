@@ -1,3 +1,8 @@
+hdfs dfs -put GoogleLocal/places.csv /user/cloudera/cw2/
+hdfs dfs -put GoogleLocal/reviews.csv /user/cloudera/cw2/
+hdfs dfs -put GoogleLocal/users.csv /user/cloudera/cw2/
+spark-shell USE GoogleLocal
+
 req1()
 {
 	if [ ! -d "/home/cloudera/cw2/req1/result/" ]
