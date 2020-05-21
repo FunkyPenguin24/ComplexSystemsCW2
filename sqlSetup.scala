@@ -34,3 +34,5 @@ education STRING
 load data inpath '/home/cloudera/cw2/reviews.csv/' into table reviews;
 load data inpath '/home/cloudera/cw2/places.csv/' into table places;
 load data inpath '/home/cloudera/cw2/users.csv/' into table users;
+
+System.exit(0);
